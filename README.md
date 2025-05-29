@@ -1,6 +1,4 @@
-Certainly! Here's the **updated README.md** file incorporating **problem description, setup instructions, solution explanation, and assumptions/trade-offs**.
 
----
 
 # **Conway's Game of Life API**
 
