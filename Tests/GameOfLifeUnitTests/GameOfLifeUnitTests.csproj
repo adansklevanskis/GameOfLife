@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\GameOfLife.csproj" />
+    <ProjectReference Include="..\..\src\GameOfLifeAPI\GameOfLife.csproj" />
   </ItemGroup>
 
   <ItemGroup>
