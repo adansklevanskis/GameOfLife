@@ -15,7 +15,7 @@ WORKDIR /src
 COPY ["GameOfLife.csproj", "GameOfLife/"]
 RUN dotnet restore "./GameOfLife/GameOfLife.csproj"
 COPY . .
-WORKDIR "/src/GameOfLife"
+WORKDIR "/src/"
 RUN dotnet build "./GameOfLife.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
